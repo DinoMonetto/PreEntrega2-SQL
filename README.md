@@ -1,5 +1,5 @@
-# **PreEntrega1-SQL**
-**Primer entregable curso CoderHouse comisión 57190
+# **PreEntrega2-SQL**
+**Segundo entregable curso CoderHouse comisión 57190
 Profesor Anderson Ocaña**
 
 
@@ -7,6 +7,7 @@ Profesor Anderson Ocaña**
 Esta base de datos está diseñada para gestionar una tienda de ropa en línea. La base de datos almacenará información sobre los productos disponibles, los clientes que compran en la tienda, los pedidos realizados por los clientes, y los detalles de cada pedido.
 
 # **Diagrama de entidad relación de la base de datos** (dejo un pdf con el diagrama hecho en dbdiagram.io)
+```
 +-------------------+       +-----------------+        +------------------------+
 |      Product      |       |   ProductCategory |      |         Customer       |
 +-------------------+       +-----------------+        +------------------------+
@@ -58,7 +59,7 @@ Esta base de datos está diseñada para gestionar una tienda de ropa en línea. 
 | quantity                |
 | last_update             |
 +------------------------+
-
+```
 # Listado de las tablas que comprenden la base de datos
 ## Tabla: Categoría de Producto (ProductCategory)
 - **Descripción:** Almacena información sobre las categorías de los productos.
@@ -156,4 +157,16 @@ Esta base de datos está diseñada para gestionar una tienda de ropa en línea. 
   - `product_id` (ID del producto, tipo: INT, clave foránea)
   - `quantity` (Cantidad en inventario, tipo: INT)
   - `last_update` (Fecha de la última actualización, tipo: DATETIME)
+  - 
+## Trigger: Acualizacion del stock
+- **Descripción:** Actualizar el stock del producto después de insertar un detalle de orden
+- **Tablas Interactuadas:** Product, OrderDetail
 
+## Función: Calcular descuento
+- **Descripción:** Calcular el precio con descuento de un producto.
+
+## Views: 
+- **Descripción:** ProductsWithCategory combina información de las tablas Product y ProductCategory para proporcionar una visión más completa de los productos junto con sus categorías.
+- Campos relacionados: product_id, product_name, description, price, stock, category_name.
+- **Descripción:** OrdersWithDetails combina información de las tablas Orders, Customer, y OrderDetail para proporcionar una visión detallada de las órdenes realizadas, incluyendo información del cliente y los detalles de los productos pedidos.
+- Campos relacionados: order_id, order_date, status, first_name, last_name, product_id, quantity, price.
