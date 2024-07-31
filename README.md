@@ -1,7 +1,9 @@
-# **PreEntrega2-SQL**
+### **PreEntrega2-SQL**
 **Segundo entregable curso CoderHouse comisión 57190
 Profesor Anderson Ocaña**
 
+##Insercion de tablas: Profes. tuve un problema con la insercion de tablas mendiante archivos CSV, tuve errores con las id y tambien con algunos values, intente arreglarlo de muchas formas, editando, probando otras formas de importacion y no me sale, se los escribo por aca por el limite de caracteres de la entrega de proyecto de coder, queria saber si me pueden ayudar con eso.
+les deje una carpeta con todos los CSV y SQL (los cuales no me dieron errores para agregarlos manualmente, no las deje insertadas por el simple echo de que serian unas 4000 lineas de codigo) creados en mackroo. 
 
 # **Descripción** :
 Esta base de datos está diseñada para gestionar una tienda de ropa en línea. La base de datos almacenará información sobre los productos disponibles, los clientes que compran en la tienda, los pedidos realizados por los clientes, y los detalles de cada pedido.
