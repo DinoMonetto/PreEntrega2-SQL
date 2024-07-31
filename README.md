@@ -4,7 +4,7 @@ Profesor Anderson Ocaña**
 
 # **Insercion de tablas**: 
 Profes. Tuve un problema con la inserción de tablas mendiante archivos CSV, tuve errores con las id y también con algunos values, intente arreglarlo de muchas formas, editando, probando otras formas de importacion y no me sale, se los escribo por acá por el límite de caracteres de la entrega de proyecto de Coder, quería saber si me pueden ayudar con eso.
-Les deje una carpeta con todos los CSV y SQL (los SQL no me dieron errores para agregarlos manualmente, no las dejé insertadas por el simple echo de que serían unas 4000 líneas de código) creados en Mackroo. 
+Les deje una carpeta con todos los CSV y SQL (los SQL no me dieron errores para agregarlos manualmente, no las dejé insertadas por el simple echo de que serían unas 4000 líneas de código) creados en Mackroo, para tener algunas tablas ingrese manualmente asi poder probar la funcionalidad del proyecto.
 
 # **Descripción** :
 Esta base de datos está diseñada para gestionar una tienda de ropa en línea. La base de datos almacenará información sobre los productos disponibles, los clientes que compran en la tienda, los pedidos realizados por los clientes, y los detalles de cada pedido.
